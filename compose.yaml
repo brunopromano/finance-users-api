@@ -22,10 +22,13 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8093:8080"
+    volumes:
+      - ./logs:/app/logs
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/finance_users?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: finance
       SPRING_DATASOURCE_PASSWORD: finance
+      LOGGING_FILE_PATH: /app/logs/requests.log
     depends_on:
       mysql:
         condition: service_healthy

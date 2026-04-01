@@ -1,0 +1,86 @@
+06:38:50.299 INFO  com.finance.users.UsersApplication - Starting UsersApplication v0.0.1-SNAPSHOT using Java 21.0.10 with PID 1 (/app/app.jar started by appuser in /app)
+06:38:50.306 INFO  com.finance.users.UsersApplication - No active profile set, falling back to 1 default profile: "default"
+06:38:51.026 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+06:38:51.694 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06:38:51.772 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+06:38:52.563 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+06:38:52.579 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+06:38:52.590 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+06:38:52.591 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+06:38:52.636 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2250 ms
+06:38:52.923 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+06:38:53.044 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.7.Final
+06:38:53.710 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+06:38:53.755 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+06:38:54.007 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18887028
+06:38:54.011 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+06:38:54.073 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+06:38:54.096 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://mysql:3306/finance_users?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: finance_users/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+06:38:54.116 INFO  org.hibernate.orm.incubating - HHH90006001: Setting 'hibernate.type.preferred_uuid_jdbc_type' is still incubating (see Javadoc of corresponding member of 'org.hibernate.cfg.AvailableSettings')
+06:38:54.301 INFO  org.hibernate.orm.incubating - HHH90006001: Setting 'hibernate.type.preferred_uuid_jdbc_type' is still incubating (see Javadoc of corresponding member of 'org.hibernate.cfg.AvailableSettings')
+06:38:55.128 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+06:38:55.202 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+06:38:55.321 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+06:38:55.729 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06:38:56.374 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+06:38:56.399 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+06:38:56.425 INFO  com.finance.users.UsersApplication - Started UsersApplication in 6.929 seconds (process running for 7.819)
+06:38:56.430 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+06:38:56.431 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+06:41:27.612 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+06:42:08.381 INFO  com.finance.users.UsersApplication - Starting UsersApplication v0.0.1-SNAPSHOT using Java 21.0.10 with PID 1 (/app/app.jar started by appuser in /app)
+06:42:08.389 INFO  com.finance.users.UsersApplication - No active profile set, falling back to 1 default profile: "default"
+06:42:09.019 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+06:42:09.702 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+06:42:09.791 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
+06:42:10.540 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+06:42:10.557 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+06:42:10.561 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+06:42:10.563 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+06:42:10.605 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2112 ms
+06:42:10.937 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+06:42:11.027 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.7.Final
+06:42:11.788 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+06:42:11.856 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+06:42:12.116 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57920d6c
+06:42:12.119 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+06:42:12.178 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+06:42:12.213 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://mysql:3306/finance_users?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.45
+	Default catalog/schema: finance_users/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+06:42:12.236 INFO  org.hibernate.orm.incubating - HHH90006001: Setting 'hibernate.type.preferred_uuid_jdbc_type' is still incubating (see Javadoc of corresponding member of 'org.hibernate.cfg.AvailableSettings')
+06:42:12.454 INFO  org.hibernate.orm.incubating - HHH90006001: Setting 'hibernate.type.preferred_uuid_jdbc_type' is still incubating (see Javadoc of corresponding member of 'org.hibernate.cfg.AvailableSettings')
+06:42:13.281 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+06:42:13.367 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+06:42:13.488 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+06:42:13.894 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+06:42:14.661 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+06:42:14.686 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+06:42:14.709 INFO  com.finance.users.UsersApplication - Started UsersApplication in 7.579 seconds (process running for 8.272)
+06:42:14.715 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+06:42:14.716 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+06:42:27.416 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06:42:27.417 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+06:42:27.420 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+06:42:27.886 INFO  c.f.u.p.filter.RequestLoggingFilter - GET /api/v1/users - 200 459 ms
+06:43:48.896 INFO  c.f.u.p.filter.RequestLoggingFilter - GET /api/v1/users - 200 21 ms
