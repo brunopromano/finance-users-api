@@ -15,7 +15,7 @@ API REST para gerenciamento de usuários (CRUD) usando Spring Boot, MySQL e Open
 1. Subir os serviços (aplicação + MySQL):
 
 ```bash
-docker compose up --build -d
+docker compose up --build
 ```
 
 2. Ver logs da aplicação:
