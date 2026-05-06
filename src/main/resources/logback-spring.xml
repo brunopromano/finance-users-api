@@ -29,6 +29,14 @@
         <appender-ref ref="CONSOLE"/>
     </logger>
 
+    <logger name="com.finance.users.infrastructure.config.DatabaseConnectionLogger" level="INFO" additivity="false">
+        <appender-ref ref="REQUESTS"/>
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <logger name="com.zaxxer.hikari" level="INFO"/>
+    <logger name="com.zaxxer.hikari.HikariConfig" level="DEBUG"/>
+
     <root level="INFO">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="REQUESTS"/>
